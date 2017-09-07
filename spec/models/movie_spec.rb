@@ -83,6 +83,7 @@ describe 'Movie' do
         5.times do |i|
           Movie.create(title: "Movie_#{i}", release_date: i+2000)
         end
+        # Movie.create(title: "Movie 6", release_date: 2002)
       end
 
       it 'can get the first item in the database' do
